@@ -8,4 +8,27 @@ Troit Coin
 <center>
 <p>
 <a href="https://py.pl/YcP8">Buy troit coin</a>
+<li>
+  <a href="https://www.paypal.com/donate/?hosted_button_id=RXQBXX8N5H2AA">Buy Troit Coin per dollar 100k troit coin = 1 dollar</a>
+
+    <section id="calculation" class="text-center">
+        <h1 id="result">0</h1>
+    </section>
+
+    <!-- Bootstrap & jQuery JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</li>
+  <script>
+    $(document).ready(function() {
+    setInterval(function() {
+        var n = 100; // maximum random number
+        var rand1 = Math.floor(Math.random() * n);
+        var rand2 = Math.floor(Math.random() * n);
+        var result = rand1 + rand2;
+        $('#result').text(result);
+    }, 1000);
+});
+  </script>
 </html>
